@@ -58,7 +58,7 @@ export default {
   methods: {
     
     calculaMedia() {
-      this.media = (this.nota1 + this.nota2 * 2 + this.nota3 * 3)/7
+      this.media = (this.nota1 + this.nota2 * 2 + this.nota3 * 3)/6
       parseInt(this.media)
       return this.media
     },
